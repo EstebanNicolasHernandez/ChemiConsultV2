@@ -1,0 +1,103 @@
+body {
+    background: white;
+    margin: 0;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    border: 1px dotted red;
+}
+
+.header {
+    display: flex;
+    background: white;
+    border: 1px dotted blue;
+    text-align: center;
+}
+
+.navbar-div{
+    padding: 50px;
+    align-content: center;
+    width: 100%;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+a:hover{
+    color: green;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    border: 3px dotted red;
+}
+
+.contact {
+    border: 1px dotted blue;
+    text-align: center;
+    width: 40%;
+}
+
+.location {
+
+}
+
+.logo-footer {
+    border: 2px dotted red;
+}
+
+@media all and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+    }
+
+}
+
+.descripcion{
+    align-content: center;
+    border: 1px dotted red;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.certificaion{
+    border: 1px dotted green;
+    margin: 10px auto;
+    text-align: center;
+}
+
+@keyframes cf4FadeInOut {
+    0% {
+        opacity:1;
+    }
+    17% {
+        opacity:1;
+    }
+    25% {
+        opacity:0;
+    }
+    92% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+#cf4a img:nth-of-type(1) {
+    animation-delay: 6s;
+}
+#cf4a img:nth-of-type(2) {
+    animation-delay: 4s;
+}
+#cf4a img:nth-of-type(3) {
+    animation-delay: 2s;
+}
